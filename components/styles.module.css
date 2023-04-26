@@ -1,0 +1,42 @@
+.footerTitle {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    /* identical to box height */
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+}
+
+.footerButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px;
+    gap: 12px;
+    background: #25618B;
+    border-radius: 32px;
+}
+
+.footerButtonText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    
+    color: #FFFFFF;
+}
+
+.footerLine {
+    height: 2px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+
+@media screen and (max-width: 768px) {
+    .footerTitle {
+        font-size: 44px;
+    }
+}
